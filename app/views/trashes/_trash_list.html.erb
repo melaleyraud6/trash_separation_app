@@ -1,0 +1,20 @@
+ <table>
+    <tr>
+      <th scope = "col">品目</th>
+      <th scope = "col">分別区分</th>
+      <th scope = "col">袋の区分（色）</th>
+    </tr>
+     
+    
+    <% @trashes.each do |trash| %>
+      
+       <tr >
+          <td> <%= trash.name %> </td> 
+          <td> <%= trash.separation %> </td> 
+          <td> <%= trash.color_division %> </td> 
+       </tr> 
+      
+    <% end %> 
+ 
+  </table> 
+  

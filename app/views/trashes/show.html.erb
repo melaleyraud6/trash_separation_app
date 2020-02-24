@@ -1,0 +1,25 @@
+ 
+<div class = "dictionary-wrapper">
+  <button class = "btn-item">
+  <a href = "/" class = "back-btn">TOPページへ戻る</a>
+ </button>
+
+  <div class = "header">
+    <h1>ゴミ分別検索</h1>
+  </div>
+    <%= form_with(url:search_trashes_path, local: true, method: :get, class: "search-form") do |form| %>
+  
+      <%= form.text_field :keyword, placeholder: "品目を検索する", class: "search-input" %>
+      <%= form.submit "検索", class: "search-btn" %>
+    <% end %>
+ 
+  <div id = "trash-list">
+     
+   
+   <%= render partial: 'trash_list' %>
+  </div>
+  <div class = "page">
+    <%= paginate(@trashes)  %>
+  </div>
+</div>
+ 

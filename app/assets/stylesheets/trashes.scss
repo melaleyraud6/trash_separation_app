@@ -1,0 +1,312 @@
+
+body {
+  // background-image: url("/Image1566imageja.jpg");
+  background-size: cover;
+  height: 100vh;
+  // background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: "Impact";
+  
+}
+
+.header {
+  font-size: 60px;
+  text-align: center;
+  height: 80px;
+  width: 100vw;
+  padding-top: 20px;
+  margin:0 auto;
+  background-color: beige;
+  position: fixed;
+  z-index: 1;
+  
+}
+#nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.list-block {
+ flex-wrap: wrap;
+ display: flex;
+ width:800px;
+ height:1800px;
+ margin: 0  auto;
+ align-content: flex-start; 
+ justify-content: center;
+ padding-top:120px;
+}
+
+.f-item {
+  width: 170px;
+  height: 170px;
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+  filter:drop-shadow(5px 5px 5px #4e4e4e);
+  border-radius: 40%;
+  line-height: 170px;
+  padding:0;
+  text-align: center;
+  margin: 20px 20px;
+  font-family: 'Hiragino Maru Gothic ProN';
+   
+}
+.list {
+
+  padding: 0.5em;
+  text-decoration: none;
+  background: #f7f7f7;
+  border-left: solid 6px #ff7c5c;/*左線*/
+  color: #ff7c5c;/*文字色*/
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.list:active {
+  box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+  transform: translateY(2px);
+}
+button:focus {
+  outline: 0;
+}
+
+.list {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn-item {
+  border-radius: 40px;
+  height:40px;
+  margin: 20px 20px;
+  position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 2;
+}
+
+.back-btn {
+  text-decoration: none;
+  font-family: "Impact";
+  font-size: 20px;
+  
+}
+
+#how-to-list {
+  // font-size:40px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 ;
+  list-style: none;
+  // background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  border-radius: 10px;
+  background-color: #ffe9bf;
+   li:nth-child(1){
+    background: url("/gomi_mark01_moeru.png") no-repeat;
+  }
+   li:nth-child(3){
+    background: url("/gomi_mark11_kami.png") no-repeat;
+  }
+   li:nth-child(5){
+    background: url("/gomi_mark05_petbottle.png") no-repeat;
+  }
+   li:nth-child(7){
+    background: url("/gomi_mark07_shigen.png") no-repeat;
+  }
+   li:nth-child(9){
+    background: url("/gomi_mark06_plastic.png") no-repeat;
+  }
+   li:nth-child(11){
+    background: url("/gomi_mark08_sodai.png") no-repeat;
+  }
+   li:nth-child(13){
+    background: url("/gomi_mark12_sonohoka.png") no-repeat;
+  }
+  
+  
+  
+}
+
+#how-to-garbage {
+  text-align: center;
+  font-family: 'Hiragino Maru Gothic ProN';
+  font-style: bold;
+  font-size:20px;
+  // height: 800px;
+  padding-top: 120px;
+}
+.how-to-item {
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Hiragino Maru Gothic ProN';
+  line-height: 30px;
+ 
+}
+
+.how-to-item h3 {
+  font-size: 20px;
+  
+}
+
+.how-to-item span {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  color:mediumvioletred;
+  font-size: 20px;
+}
+.how-to {
+  height:50px;
+  padding-top: 10px;
+  padding-left: 70px;
+  line-height: 50px;
+  
+}
+
+
+
+
+.answer {
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display: none;
+}
+.title {
+  color: mediumaquamarine;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 20px;
+  font-size:20px ;
+  padding-left: 10px;
+}
+.break {
+  height: 10px;
+  background-color: #f7f7f7; 
+}
+.dictionary-wrapper {
+  font-family: 'Hiragino Maru Gothic ProN';
+}
+table  {
+  margin: 20px auto;
+  padding: 0.2em 0.5em;
+  // margin: 2em 0;
+  color: #565656;
+  background: #ffeaea;
+  box-shadow: 0px 0px 0px 10px #ffeaea;
+ 
+  border: dashed 2px #ffc3c3;
+  border-radius: 8px;
+}
+th {
+  text-align: center;
+}
+
+td ,tr,th {
+  margin: 10px auto;
+  padding: 10px 20px;
+  line-height: 40px;
+  border: dashed 2px #ffc3c3 ;
+  // border-right: dashed 2px #ffc3c3 ;
+ 
+}
+.trash-map {
+  display: flex;
+}
+.map {
+  margin: 20px auto;
+}
+.google-map {
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+.search-form {
+  text-align: center;
+  padding-top: 120px;
+  .search-input {
+    width: 30%;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 3px;
+  }
+
+  .search-btn {
+    width: 10%;
+    border-radius: 3px;
+    display: inline-block;
+    padding:10px;
+    background-color: #57C3E9 ;
+    color:white;
+    font-weight: bold;
+    &:hover {
+      border-color: lighten(white, 15%);
+      color: lighten(white, 15%);
+    }
+  }
+}
+#question {
+  text-align: center;
+  font-family: 'Hiragino Maru Gothic ProN';
+  font-size: 20px;
+  height: 1000px;
+  padding-top:120px;
+  .answer {
+    font-size: 20px;
+  }
+}
+.page {
+  text-align: center;
+  font-family: "Impact";
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  margin-top: 50px;
+  // position: fixed;
+  // z-index: 1;
+  // width:100%;
+}
+#bring-in{
+  text-align: center;
+  padding-top: 120px;
+  p {
+    font-size: 20px;
+    font-family: 'Hiragino Maru Gothic ProN';
+  } 
+}
+#appliance{
+  text-align: center;
+  height: 800px;
+  padding-top: 120px;
+  p {
+    font-size: 20px;
+    font-family: 'Hiragino Maru Gothic ProN';
+  } 
+}
+#contact{
+  text-align: center;
+  padding-top: 120px;
+  p {
+    font-size: 30px;
+    font-family: 'Hiragino Maru Gothic ProN';
+  } 
+}
+
+#result {
+  margin: 0 auto;
+  padding: 0.2em 0.5em;
+  // margin: 2em 0;
+  color: #565656;
+  background: #ffeaea;
+  box-shadow: 0px 0px 0px 10px #ffeaea;
+  text-align: center;
+  // border: dashed 2px #ffc3c3;
+  border-radius: 8px;
+  width: 100%;
+  align-items: center;
+}
+#trash_list {
+  width:80%;
+  margin: 20px auto;
+  align-items: center;
+}
