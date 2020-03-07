@@ -1,24 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリ名
+   ゴミ分別検索アプリ
 
-Things you may want to cover:
+## 概要
+  *  ゴミ分別→品目を入れて検索すると袋の区分がわかる
+  *  ゴミの出し方→出し方の注意事項
+  *  よくある質問→よくある質問の一覧
+  *  ゴミの持ち込み→持ち込み受け入れ施設とその場所
+  *  家電4品目→家電4品目のリサイクル料金と運搬のリサイクル料金と運搬料金
+  *  問い合わせ→問い合わせ先の施設、番号、地図
 
-* Ruby version
+## 本番環境 ( デプロイ先 )
+   http://18.176.144.72/
 
-* System dependencies
+## 制作背景
+###  自分が住んでいるところの資源ごみ分別が種類が細かく分かれているので、簡単に調べられるアプリがあったらいいなと思ったことから
 
-* Configuration
+## DEMO
+  *  工夫したポイント
+     
+  *  使用技術
+     ruby
+     ruby on rails
+     
+  *  課題や今後実装したい機能
+    1. 今は検索するときに品目がカタカナでデータベースに入っているときはひらがなで検索しても一致しないのでどちらで検索しても検索結果に出るようにしたい
+    2. 品目をカメラで撮り、その画像をもとに検索結果が表示されるようにしたい
 
-* Database creation
+## DB設計
+### trashesテーブル
 
-* Database initialization
+|Column|Type|Opitons|
+|------|----|-------|
+|name|text||
+|separation |text||
+|color_division|text||
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
