@@ -19,13 +19,15 @@
 
 ## DEMO
   *  工夫したポイント
-     
+     [![Image from Gyazo](https://i.gyazo.com/54f5544e5a704d1fdedc051ebf04fde7.png)](https://gyazo.com/54f5544e5a704d1fdedc051ebf04fde7)
   *  使用技術
      ruby
+     
      ruby on rails
      
   *  課題や今後実装したい機能
     1. 今は検索するときに品目がカタカナでデータベースに入っているときはひらがなで検索しても一致しないのでどちらで検索しても検索結果に出るようにしたい
+
     2. 品目をカメラで撮り、その画像をもとに検索結果が表示されるようにしたい
 
 ## DB設計
