@@ -19,7 +19,7 @@
 
 ## DEMO
   *  工夫したポイント
-     [![Image from Gyazo](https://i.gyazo.com/54f5544e5a704d1fdedc051ebf04fde7.png)](https://gyazo.com/54f5544e5a704d1fdedc051ebf04fde7)
+     [![Image from Gyazo](https://i.gyazo.com/93a6e29630e3ca4fac016397dae1b10b.gif)](https://gyazo.com/93a6e29630e3ca4fac016397dae1b10b)
   *  使用技術  
      ruby  
      ruby on rails  
