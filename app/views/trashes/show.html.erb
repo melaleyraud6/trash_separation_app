@@ -1,10 +1,9 @@
  
 <div class = "dictionary-wrapper">
-  <button class = "btn-item">
-  <a href = "/" class = "back-btn">TOPページへ戻る</a>
- </button>
-
   <div class = "header">
+    <button class = "btn-item">
+      <a href = "/" class = "back-btn">TOPページへ戻る</a>
+    </button>
     <h1>ゴミ分別検索</h1>
   </div>
     <%= form_with(url:search_trashes_path, local: true, method: :get, class: "search-form") do |form| %>
