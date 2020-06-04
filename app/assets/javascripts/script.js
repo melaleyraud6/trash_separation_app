@@ -14,24 +14,24 @@ $(function(){
   });
   $('.f-item').on('click', function(){
     var id = $(this).attr('how-to-garbage');
-    var position = $(id).offset().top;
+    var position = $(id).offset().top();
   });
 
   $('.f-item').on('click', function(){
     var id = $(this).attr('question');
-    var position = $(id).offset().top;
+    var position = $(id).offset().top();
   });
   $('.f-item').on('click', function(){
     var id = $(this).attr('bring-in');
-    var position = $(id).offset().top;
+    var position = $(id).offset().top();
   });
   $('.f-item').on('click', function(){
     var id = $(this).attr('appliance');
-    var position = $(id).offset().top;
+    var position = $(id).offset().top();
   });
   $('.f-item').on('click', function(){
     var id = $(this).attr('contact');
-    var position = $(id).offset().top;
+    var position = $(id).offset().top();
   });
 
   $('#nav').click(function(){
